@@ -14,4 +14,9 @@ $(document).ready(function() {
     $("#flickr").click(function(){
         search("fuenlabrada");
     });
+
+    $("#boton").click(function(){
+        var formulario = document.getElementById('form').value;
+        search(formulario)
+    });
 });
